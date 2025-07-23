@@ -12,8 +12,8 @@ Automate playing the Chrome Dino game using computer vision and keyboard automat
 
 ## Files
 
-- `Bot.py`: Main bot script. Runs automatically.
-- [`BotCuedStart.py`](BotCuedStart.py): Bot waits for spacebar before starting.
+- [`Bot.py`](Bot.py): Bot starts as soon as you run the script .
+- [`BotCuedStart.py`](BotCuedStart.py): Bot waits for spacebar before starting, so that it can start simultaneously with the dino game.
 - [`ScanRegionSelector.py`](ScanRegionSelector.py): GUI tool to select and save scan region.
 - [`scanBoxCoordinates.json`](scanBoxCoordinates.json): Stores scan region coordinates.
 - `.gitignore`: Ignores `venv` folder.
